@@ -29,7 +29,7 @@ int main()
       smax=max;//smax is now previous max
       max=arr[i];
     }
-    else if (smax<arr[i]&& max!==arr[i])
+    else if (smax<arr[i]&& max!=arr[i])
     {
         smax=arr[i];
     } 
